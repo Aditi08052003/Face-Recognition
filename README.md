@@ -23,24 +23,3 @@ A Python-based face recognition tool that detects and identifies faces from a li
 ---
 
 ##  Project Structure
-
-- Face-Recognition/
-- ├── face_recognition/          # Source code package
-│   ├── __init__.py
-│   ├── face.py                # Main CLI logic (enroll/recognize)
-│   ├── detect.py              # Face detection functions
-│   ├── utils.py               # Helper functions (CSV logging, etc.)
-│
-├── data/                      # Sample or small demo data
-│   ├── Face_Images/           # Person images (tiny sample, not full dataset)
-│   └── Attendance/            # Logs (CSV files)
-│
-├── tests/                     # Unit tests
-│   └── test_detect.py
-│
-├── requirements.txt           # Dependencies (opencv-python, numpy, etc.)
-├── .gitignore                 # Ignore venv, __pycache__, large files
-├── README.md                  # Project documentation
-├── LICENSE                    # (MIT recommended)
-└── app.py                     # Optional: Streamlit/Flask app for UI
-
