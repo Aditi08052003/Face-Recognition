@@ -24,8 +24,8 @@ A Python-based face recognition tool that detects and identifies faces from a li
 
 ##  Project Structure
 
-Face-Recognition/
-├── face_recognition/          # Source code package
+- Face-Recognition/
+- ├── face_recognition/          # Source code package
 │   ├── __init__.py
 │   ├── face.py                # Main CLI logic (enroll/recognize)
 │   ├── detect.py              # Face detection functions
